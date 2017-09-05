@@ -12,6 +12,9 @@
         <springframework.version>4.3.10.RELEASE</springframework.version>
         <junit.version>3.8.1</junit.version>
         <mockito.version>2.9.0</mockito.version>
+        <podam.version>>7.1.0.RELEASE</podam.version>
+        <pmd.version>4.2.5</pmd.version>
+        <findbugs.version>2.3.3</findbugs.version>
     </properties>
     <dependencies>
         <!-- Spring -->
@@ -46,6 +49,12 @@
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
             <version>${mockito.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>uk.co.jemos.podam</groupId>
+            <artifactId>podam</artifactId>
+            <version${podam.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>
